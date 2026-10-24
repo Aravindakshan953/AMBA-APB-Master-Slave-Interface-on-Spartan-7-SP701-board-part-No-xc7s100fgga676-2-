@@ -185,7 +185,7 @@ All user-specified timing constraints are met: worst setup slack is +2.980 ns, w
 | Hold (WHS / THS) | 0.243 ns | 0.000 ns | 0 | 141 |
 | Pulse width (WPWS / TPWS) | 4.500 ns | 0.000 ns | 0 | 79 |
 
-![Vivado Design Timing Summary for the APB wrapper](C:\Users\Aravindakshan\Downloads\portfolio\portfolio\assets\images\My VLSI Project\APB Final Timing Constraints.png)
+![Vivado Design Timing Summary for the APB wrapper](https://github.com/Aravindakshan953/APB_Protocol/blob/main/APB%20Final%20Timing%20Constraints.png)
 
 *Vivado Design Timing Summary (routed design, 100 MHz clock).*
 
