@@ -211,7 +211,7 @@ Total on-chip power is 0.174 W, well inside the 5 W budget set in the constraint
 | Process | typical |
 | Confidence level | Medium |
 
-![Vivado power summary for the APB wrapper: 0.174 W total](C:\Users\Aravindakshan\Downloads\portfolio\portfolio\assets\images\My VLSI Project\APB Final Power constraints.png)
+![Vivado power summary for the APB wrapper: 0.174 W total](https://github.com/Aravindakshan953/APB_Protocol/blob/main/APB%20Final%20Timing%20Constraints.png)
 
 *Vivado power analysis of the implemented netlist.*
 
