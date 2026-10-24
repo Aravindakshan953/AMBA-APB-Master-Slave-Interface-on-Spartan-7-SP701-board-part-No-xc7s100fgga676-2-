@@ -232,7 +232,7 @@ Vivado's design-rule and methodology checks flag the following. They are listed 
 
 The testbench (`APB_tb.v`) drives the user interface and the waveform below covers the first 440 ns. After reset is released, `transfer` is asserted and the stimulus steps through different addresses (including `0x3ff` and `0x33`), write data (`0xccccdddd` and others) and byte-strobe patterns (`f`, `6`, `9`, `7`, `0`). Reset is applied a second time at about 190 ns. `PRDATA` reads as zero until about 270 ns and then shows unknown (`x`) values for the rest of the captured window, so the read-back data is not yet confirmed in this capture.
 
-![Simulation waveform of the APB testbench, 0 to 440 ns](C:\Users\Aravindakshan\Downloads\portfolio\portfolio\assets\images\My VLSI Project\APB Final Waveforms.png)
+![Simulation waveform of the APB testbench, 0 to 440 ns](https://github.com/Aravindakshan953/APB_Protocol/blob/main/APB%20Final%20Waveforms.png)
 
 *Simulation waveform, 0 to 440 ns.*
 
