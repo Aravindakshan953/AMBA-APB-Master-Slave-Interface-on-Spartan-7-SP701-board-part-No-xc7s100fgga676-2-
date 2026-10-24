@@ -185,7 +185,7 @@ All user-specified timing constraints are met: worst setup slack is +2.980 ns, w
 | Hold (WHS / THS) | 0.243 ns | 0.000 ns | 0 | 141 |
 | Pulse width (WPWS / TPWS) | 4.500 ns | 0.000 ns | 0 | 79 |
 
-![Vivado Design Timing Summary for the APB wrapper](images/apb_timing_summary.png)
+![Vivado Design Timing Summary for the APB wrapper](C:\Users\Aravindakshan\Downloads\portfolio\portfolio\assets\images\My VLSI Project\APB Final Timing Constraints.png)
 
 *Vivado Design Timing Summary (routed design, 100 MHz clock).*
 
@@ -211,7 +211,7 @@ Total on-chip power is 0.174 W, well inside the 5 W budget set in the constraint
 | Process | typical |
 | Confidence level | Medium |
 
-![Vivado power summary for the APB wrapper: 0.174 W total](images/apb_power_summary.png)
+![Vivado power summary for the APB wrapper: 0.174 W total](C:\Users\Aravindakshan\Downloads\portfolio\portfolio\assets\images\My VLSI Project\APB Final Power constraints.png)
 
 *Vivado power analysis of the implemented netlist.*
 
@@ -232,7 +232,7 @@ Vivado's design-rule and methodology checks flag the following. They are listed 
 
 The testbench (`APB_tb.v`) drives the user interface and the waveform below covers the first 440 ns. After reset is released, `transfer` is asserted and the stimulus steps through different addresses (including `0x3ff` and `0x33`), write data (`0xccccdddd` and others) and byte-strobe patterns (`f`, `6`, `9`, `7`, `0`). Reset is applied a second time at about 190 ns. `PRDATA` reads as zero until about 270 ns and then shows unknown (`x`) values for the rest of the captured window, so the read-back data is not yet confirmed in this capture.
 
-![Simulation waveform of the APB testbench, 0 to 440 ns](images/apb_waveform.png)
+![Simulation waveform of the APB testbench, 0 to 440 ns](C:\Users\Aravindakshan\Downloads\portfolio\portfolio\assets\images\My VLSI Project\APB Final Waveforms.png)
 
 *Simulation waveform, 0 to 440 ns.*
 
